@@ -1,0 +1,96 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.profile-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+}
+
+.card-header {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    padding: 30px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 18px;
+    color: #6a11cb;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.bio {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.card-footer {
+    background-color: #f9f9f9;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.footer-item img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.footer-item:hover {
+    color: #6a11cb;
+}
+
+.footer-item img:hover {
+    filter: brightness(1.2);
+}
